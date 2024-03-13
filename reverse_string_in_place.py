@@ -1,5 +1,4 @@
 # Given a string, reverse it in place.
-import string
 from typing import List
 
 
