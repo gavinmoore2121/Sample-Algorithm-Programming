@@ -40,6 +40,14 @@ def main():
     print("--- Time elapsed: %s seconds ---" % (time.time() - start_time))
 
 
+def input_sample():
+    integer1 = int(input())
+    list_of_ints = list(map(int, input().split()))
+    integer2 = int(input())
+
+    list_of_10_lines_of_ints = [list(map(int, input().split())) for n in range(10)]
+
+
 def get_user_input() -> (int, int, List[int]):
     """
     Return a list of user input.
